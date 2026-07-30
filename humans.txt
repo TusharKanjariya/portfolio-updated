@@ -1,0 +1,11 @@
+/* AUTHOR */
+Name: Tushar Kanjariya
+Role: Full-Stack Developer
+Location: Jamnagar, Gujarat, India
+Website: https://tusharkanjariya.me/
+Contact: tusharkanjariya2014@gmail.com
+
+/* SITE */
+Language: English (India)
+Standards: Semantic HTML, responsive CSS, progressive enhancement
+Last updated: 2026-07-28

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tusharkanjariya.me/sitemap.xml

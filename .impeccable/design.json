@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-28T16:45:00+05:30",
+  "title": "Design System: Tushar Kanjariya Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "neutral-canvas": {
+        "role": "neutral",
+        "displayName": "Neutral Canvas",
+        "canonical": "#f4f3ef",
+        "tonalRamp": ["oklch(15% 0.01 95)", "oklch(27% 0.01 95)", "oklch(39% 0.01 95)", "oklch(51% 0.01 95)", "oklch(63% 0.01 95)", "oklch(75% 0.01 95)", "oklch(87% 0.01 95)", "oklch(95% 0.01 95)"]
+      },
+      "clear-white": {
+        "role": "neutral",
+        "displayName": "Clear White",
+        "canonical": "#ffffff",
+        "tonalRamp": ["oklch(15% 0 0)", "oklch(27% 0 0)", "oklch(39% 0 0)", "oklch(51% 0 0)", "oklch(63% 0 0)", "oklch(75% 0 0)", "oklch(87% 0 0)", "oklch(100% 0 0)"]
+      },
+      "carbon-ink": {
+        "role": "neutral",
+        "displayName": "Carbon Ink",
+        "canonical": "#11110f",
+        "tonalRamp": ["oklch(15% 0.01 95)", "oklch(27% 0.01 95)", "oklch(39% 0.01 95)", "oklch(51% 0.01 95)", "oklch(63% 0.01 95)", "oklch(75% 0.01 95)", "oklch(87% 0.01 95)", "oklch(95% 0.01 95)"]
+      },
+      "utility-gray": {
+        "role": "neutral",
+        "displayName": "Utility Gray",
+        "canonical": "#696962",
+        "tonalRamp": ["oklch(15% 0.012 95)", "oklch(27% 0.012 95)", "oklch(39% 0.012 95)", "oklch(51% 0.012 95)", "oklch(63% 0.012 95)", "oklch(75% 0.012 95)", "oklch(87% 0.012 95)", "oklch(95% 0.012 95)"]
+      },
+      "structural-line": {
+        "role": "neutral",
+        "displayName": "Structural Line",
+        "canonical": "#11110f29",
+        "tonalRamp": ["#11110f1a", "#11110f29", "#11110f3d", "#11110f52", "#11110f66", "#11110f80", "#11110fa3", "#11110fcc"]
+      },
+      "systems-blue": {
+        "role": "primary",
+        "displayName": "Systems Blue",
+        "canonical": "#2f5bff",
+        "tonalRamp": ["oklch(15% 0.24 264)", "oklch(27% 0.24 264)", "oklch(39% 0.24 264)", "oklch(51% 0.24 264)", "oklch(63% 0.24 264)", "oklch(75% 0.20 264)", "oklch(87% 0.12 264)", "oklch(95% 0.05 264)"]
+      },
+      "blue-surface-text": {
+        "role": "neutral",
+        "displayName": "Blue Surface Text",
+        "canonical": "#eef1ff",
+        "tonalRamp": ["#ffffff", "#f7f8ff", "#eef1ff", "#e5eaff", "#dce4ff", "#d2dcff", "#c7d2ff", "#b8c6ff"]
+      },
+      "signal-lime": {
+        "role": "secondary",
+        "displayName": "Signal Lime",
+        "canonical": "#d9ff57",
+        "tonalRamp": ["oklch(15% 0.18 120)", "oklch(27% 0.18 120)", "oklch(39% 0.18 120)", "oklch(51% 0.18 120)", "oklch(63% 0.18 120)", "oklch(75% 0.18 120)", "oklch(87% 0.15 120)", "oklch(95% 0.08 120)"]
+      },
+      "form-error": {
+        "role": "semantic",
+        "displayName": "Form Error",
+        "canonical": "#ffb4aa",
+        "tonalRamp": ["#351512", "#61251f", "#923a31", "#c45448", "#e9786c", "#ff9f94", "#ffb4aa", "#ffe2de"]
+      },
+      "portrait-neutral": {
+        "role": "neutral",
+        "displayName": "Portrait Neutral",
+        "canonical": "#d9dad7",
+        "tonalRamp": ["oklch(15% 0.02 80)", "oklch(27% 0.02 80)", "oklch(39% 0.02 80)", "oklch(51% 0.02 80)", "oklch(63% 0.02 80)", "oklch(75% 0.02 80)", "oklch(87% 0.02 80)", "oklch(95% 0.02 80)"]
+      },
+      "archive-lilac": {
+        "role": "tertiary",
+        "displayName": "Archive Lilac",
+        "canonical": "#d9d0ff",
+        "tonalRamp": ["oklch(15% 0.06 300)", "oklch(27% 0.06 300)", "oklch(39% 0.06 300)", "oklch(51% 0.06 300)", "oklch(63% 0.06 300)", "oklch(75% 0.06 300)", "oklch(87% 0.05 300)", "oklch(95% 0.03 300)"]
+      },
+      "archive-sky": {
+        "role": "tertiary",
+        "displayName": "Archive Sky",
+        "canonical": "#b9dcff",
+        "tonalRamp": ["oklch(15% 0.07 240)", "oklch(27% 0.07 240)", "oklch(39% 0.07 240)", "oklch(51% 0.07 240)", "oklch(63% 0.07 240)", "oklch(75% 0.07 240)", "oklch(87% 0.06 240)", "oklch(95% 0.03 240)"]
+      },
+      "archive-mint": {
+        "role": "tertiary",
+        "displayName": "Archive Mint",
+        "canonical": "#c6f5dd",
+        "tonalRamp": ["oklch(15% 0.07 160)", "oklch(27% 0.07 160)", "oklch(39% 0.07 160)", "oklch(51% 0.07 160)", "oklch(63% 0.07 160)", "oklch(75% 0.07 160)", "oklch(87% 0.06 160)", "oklch(95% 0.03 160)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "fontFamily": "Hanken Grotesk, Segoe UI, Arial, sans-serif", "fontSize": "clamp(3.25rem, 7vw, 6rem)", "fontWeight": 700, "lineHeight": 0.95, "letterSpacing": "-0.035em", "purpose": "Hero statements and one dominant message per viewport." },
+      "priorityHeadline": { "displayName": "Priority Headline", "fontFamily": "Hanken Grotesk, Segoe UI, Arial, sans-serif", "fontSize": "clamp(3.25rem, 5.5vw, 5rem)", "fontWeight": 600, "lineHeight": 0.97, "letterSpacing": "-0.035em", "purpose": "Experience and Recent Writing section headings." },
+      "headline": { "displayName": "Headline", "fontFamily": "Hanken Grotesk, Segoe UI, Arial, sans-serif", "fontSize": "clamp(3rem, 5vw, 4.5rem)", "fontWeight": 600, "lineHeight": 0.97, "letterSpacing": "-0.035em", "purpose": "Supporting section headings with balanced wrapping." },
+      "title": { "displayName": "Title", "fontFamily": "Hanken Grotesk, Segoe UI, Arial, sans-serif", "fontSize": "clamp(1.75rem, 3vw, 2.875rem)", "fontWeight": 600, "lineHeight": 1.06, "letterSpacing": "-0.025em", "purpose": "Roles, writing titles, and major card headings." },
+      "body": { "displayName": "Body", "fontFamily": "Hanken Grotesk, Segoe UI, Arial, sans-serif", "fontSize": "1rem", "fontWeight": 400, "lineHeight": 1.5, "purpose": "Readable supporting narrative capped near 65–75 characters per line." },
+      "lead": { "displayName": "Lead", "fontFamily": "Hanken Grotesk, Segoe UI, Arial, sans-serif", "fontSize": "1.125rem", "fontWeight": "400–500", "lineHeight": "1.5–1.55", "purpose": "Short explanatory copy and dark-surface narrative." },
+      "label": { "displayName": "Label", "fontFamily": "Hanken Grotesk, Segoe UI, Arial, sans-serif", "fontSize": "0.75rem", "fontWeight": 600, "lineHeight": 1.2, "letterSpacing": "0.1em", "purpose": "True metadata and navigation cues only." },
+      "accent": { "displayName": "Human Accent", "fontFamily": "Source Serif 4, Georgia, Times New Roman, serif", "fontWeight": 400, "fontStyle": "italic", "purpose": "A restrained serif counterpoint inside selected display phrases." }
+    },
+    "shadows": [
+      { "name": "archive-artifact", "value": "0 20px 55px rgba(17,17,15,.18)", "purpose": "Separates interface screenshots from their pastel presentation fields." }
+    ],
+    "motion": [
+      { "name": "ease-responsive", "value": "cubic-bezier(.2,.7,.2,1)", "purpose": "Default responsive easing for buttons, rows, cards, and directional movement." },
+      { "name": "ease-writing", "value": "cubic-bezier(.22,1,.36,1)", "purpose": "Smoother ease-out curve for the Recent Writing surface reveal." },
+      { "name": "ease-expo", "value": "cubic-bezier(.16,1,.3,1)", "purpose": "Confident deceleration for the hero, list choreography, and menu destinations." },
+      { "name": "duration-instant", "value": "120ms", "purpose": "Press acknowledgment and immediate feedback." },
+      { "name": "duration-state", "value": "240ms", "purpose": "Menu and compact state changes." },
+      { "name": "duration-standard", "value": "400ms", "purpose": "Coordinated component movement." },
+      { "name": "duration-writing", "value": "580ms", "purpose": "Bottom-up writing-card surface reveal." },
+      { "name": "duration-entrance", "value": "650ms", "purpose": "Maximum individual duration inside the one-time hero choreography; the full sequence settles within 800ms." },
+      { "name": "list-stagger", "value": "45ms, capped at 270ms", "purpose": "Progressive rhythm inside repeated proof and destination groups." }
+    ],
+    "breakpoints": [
+      { "name": "mobile", "value": "600px" },
+      { "name": "content-stack", "value": "720px" },
+      { "name": "short-viewport", "value": "600px height", "condition": "max-width: 900px and max-height: 600px" },
+      { "name": "navigation", "value": "900px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "High-emphasis contact or destination action.",
+      "html": "<button class=\"ds-btn-primary\"><span>Start a conversation</span><span aria-hidden=\"true\">↗</span></button>",
+      "css": ".ds-btn-primary { min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: 32px; padding: 0 24px; border: 1px solid transparent; border-radius: 999px; background: var(--ink); color: var(--white); font: inherit; font-size: .875rem; font-weight: 600; transition: transform .25s cubic-bezier(.2,.7,.2,1), background .25s ease; } .ds-btn-primary:hover { background: var(--blue); transform: translateY(-2px); } .ds-btn-primary:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary destination action on the neutral canvas.",
+      "html": "<button class=\"ds-btn-outline\"><span>View experience</span><span aria-hidden=\"true\">↗</span></button>",
+      "css": ".ds-btn-outline { min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: 32px; padding: 0 24px; border: 1px solid var(--ink); border-radius: 999px; background: transparent; color: var(--ink); font: inherit; font-size: .875rem; font-weight: 600; transition: transform .25s cubic-bezier(.2,.7,.2,1), background .25s ease, color .25s ease; } .ds-btn-outline:hover { background: var(--ink); color: var(--white); transform: translateY(-2px); } .ds-btn-outline:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }"
+    },
+    {
+      "name": "Light Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary action placed on Carbon Ink or Systems Blue.",
+      "html": "<button class=\"ds-btn-light\"><span>Contact me</span><span aria-hidden=\"true\">↗</span></button>",
+      "css": ".ds-btn-light { min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: 32px; padding: 0 24px; border: 0; border-radius: 999px; background: var(--white); color: var(--ink); font: inherit; font-size: .875rem; font-weight: 600; transition: transform .25s cubic-bezier(.2,.7,.2,1), background .25s ease; } .ds-btn-light:hover { background: var(--lime); transform: translateY(-2px); } .ds-btn-light:focus-visible { outline: 2px solid var(--lime); outline-offset: 3px; }"
+    },
+    {
+      "name": "Copy Contact Detail",
+      "kind": "button",
+      "description": "Reusable email or phone copy utility with explicit success feedback and a dedicated ARIA live announcement.",
+      "html": "<button class=\"ds-copy-action\" type=\"button\"><span>Copy detail</span><span aria-hidden=\"true\">⧉</span></button>",
+      "css": ".ds-copy-action { min-width: 126px; min-height: 44px; display: inline-flex; align-items: center; justify-content: space-between; gap: 8px; padding: 0 16px; border: 1px solid rgba(255,255,255,.28); border-radius: 999px; background: transparent; color: #a8a8a1; font: inherit; font-size: .875rem; transition: color .24s ease, border-color .24s ease, background .24s ease, transform .24s cubic-bezier(.2,.7,.2,1); } .ds-copy-action:hover, .ds-copy-action:focus-visible { border-color: var(--lime); color: var(--white); transform: translateY(-2px); } .ds-copy-action.is-copied { border-color: var(--lime); background: var(--lime); color: var(--ink); }"
+    },
+    {
+      "name": "Contact Recovery",
+      "kind": "custom",
+      "description": "Progressively disclosed fallback that copies a complete ready-to-send enquiry when no local mail handler opens.",
+      "html": "<div class=\"ds-contact-recovery\"><p>No email app opened? Copy the complete enquiry for webmail.</p><button type=\"button\">Copy ready message</button></div>",
+      "css": ".ds-contact-recovery { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 16px 0; border-top: 1px solid rgba(255,255,255,.25); border-bottom: 1px solid rgba(255,255,255,.25); color: var(--white); }"
+    },
+    {
+      "name": "Credential Card",
+      "kind": "card",
+      "refersTo": "credential-card",
+      "description": "Self-contained certification or education proof.",
+      "html": "<article class=\"ds-credential\"><p>Certification · 2023</p><h3>AWS Certified Cloud Practitioner</h3><span>Professional credential</span><a href=\"#\">View certificate ↗</a></article>",
+      "css": ".ds-credential { min-height: 320px; display: flex; flex-direction: column; align-items: flex-start; padding: 32px; border-radius: var(--radius); background-color: var(--white); color: var(--ink); transition: background-color 260ms cubic-bezier(.22,1,.36,1); } .ds-credential p, .ds-credential span { color: var(--muted); } .ds-credential h3 { margin: auto 0 12px; letter-spacing: -.04em; } .ds-credential a { margin-top: 24px; color: var(--blue); } .ds-credential:hover, .ds-credential:focus-within { background-color: #f5f6ff; background-color: color-mix(in srgb, var(--blue) 6%, var(--white)); } .ds-credential:focus-within { outline: 2px solid var(--blue); outline-offset: 3px; }"
+    },
+    {
+      "name": "Writing Card",
+      "kind": "card",
+      "refersTo": "writing-card",
+      "description": "Rule-separated editorial link with a coordinated dark reveal.",
+      "html": "<a class=\"ds-writing\" href=\"#\"><span>AI engineering · Recent</span><h3>Ideas from behind the build</h3><span>Read the article <b aria-hidden=\"true\">↗</b></span></a>",
+      "css": ".ds-writing { position: relative; isolation: isolate; min-height: 300px; display: flex; flex-direction: column; justify-content: space-between; padding: 32px; overflow: hidden; border: 1px solid var(--line); color: var(--ink); text-decoration: none; transition: color .5s cubic-bezier(.22,1,.36,1); } .ds-writing::before { content: ''; position: absolute; z-index: -1; inset: 0; background: var(--ink); transform: scaleY(0); transform-origin: bottom; transition: transform .58s cubic-bezier(.22,1,.36,1); } .ds-writing:hover, .ds-writing:focus-visible { color: var(--white); } .ds-writing:hover::before, .ds-writing:focus-visible::before { transform: scaleY(1); } .ds-writing:focus-visible { outline: 2px solid var(--blue); outline-offset: -3px; }"
+    },
+    {
+      "name": "Dark Underline Field",
+      "kind": "input",
+      "refersTo": "input-dark",
+      "description": "Quiet contact field for Carbon Ink sections.",
+      "html": "<label class=\"ds-field\"><span>Your email</span><input type=\"email\" placeholder=\"you@company.com\"></label>",
+      "css": ".ds-field { display: grid; gap: 10px; color: var(--white); } .ds-field span { color: #a8a8a1; font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; transition: color .25s ease, transform .25s ease; } .ds-field input { width: 100%; padding: 8px 0 16px; border: 0; border-bottom: 1px solid rgba(255,255,255,.35); border-radius: 0; outline: none; background: transparent; color: var(--white); font: inherit; font-size: 1.25rem; } .ds-field:focus-within span { color: var(--lime); transform: translateY(-2px); } .ds-field input:focus { border-color: var(--lime); }"
+    },
+    {
+      "name": "Navigation Link",
+      "kind": "nav",
+      "description": "Quiet navigation link with a precise underline reveal.",
+      "html": "<a class=\"ds-nav-link\" href=\"#experience\">Experience</a>",
+      "css": ".ds-nav-link { position: relative; color: var(--ink); text-decoration: none; font-size: .875rem; } .ds-nav-link::after { content: ''; position: absolute; left: 0; right: 100%; bottom: -4px; height: 1px; background: currentColor; transition: right .3s ease; } .ds-nav-link:hover::after, .ds-nav-link:focus-visible::after { right: 0; } .ds-nav-link:focus-visible { outline: 2px solid var(--blue); outline-offset: 5px; }"
+    },
+    {
+      "name": "Proficiency Chip",
+      "kind": "chip",
+      "description": "Non-interactive capability metadata on Systems Blue.",
+      "html": "<span class=\"ds-chip\">TypeScript · 90%</span>",
+      "css": ".ds-chip { display: inline-flex; padding: 8px 12px; border: 1px solid rgba(255,255,255,.4); border-radius: 999px; color: var(--white); font-size: .75rem; }"
+    },
+    {
+      "name": "Experience Timeline Row",
+      "kind": "custom",
+      "description": "Signature career-proof row with restrained directional feedback.",
+      "html": "<article class=\"ds-timeline\"><time>2023—Present</time><div><h3>Full-Stack Developer</h3><a href=\"#\">Company ↗</a><p>Building and maintaining full-stack digital products.</p></div></article>",
+      "css": ".ds-timeline { display: grid; grid-template-columns: 180px 1fr; gap: 40px; padding: 38px 72px 38px 0; border-bottom: 1px solid var(--line); color: var(--ink); transition: background .5s cubic-bezier(.2,.7,.2,1), border-color .35s ease, transform .4s cubic-bezier(.2,.7,.2,1); } .ds-timeline time, .ds-timeline p { color: var(--muted); } .ds-timeline h3 { margin: 0 0 5px; letter-spacing: -.04em; } .ds-timeline a { color: var(--blue); } .ds-timeline:hover, .ds-timeline:focus-within { background: rgba(47,91,255,.08); border-color: rgba(47,91,255,.55); transform: translateX(10px); } .ds-timeline:focus-within { outline: 2px solid var(--blue); outline-offset: 2px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Quiet Systems Studio",
+    "overview": "The system presents senior engineering ability through calm precision. Expansive spacing, decisive typography, strong alignment, and a limited palette allow experience and proof to lead. The composition is quiet at rest and becomes responsive only when the visitor interacts.\n\nThe visual direction follows the Quiet Systems Studio while borrowing the structural discipline of the Precise Workshop. It should feel authored by an experienced developer with professional design judgment: technically exact, visually restrained, and confidently approachable. It explicitly rejects flashy or excessive animation, dense sections, information overload, generic portfolio templates, overly playful or casual styling, and cold or impersonal corporate presentation.",
+    "keyCharacteristics": [
+      "Spacious, asymmetric composition with rigorous alignment.",
+      "Large, controlled typography with a maximum display size of 96px.",
+      "Flat surfaces that gain depth only to clarify interaction.",
+      "Systems Blue for authority and Signal Lime for rare, high-value emphasis.",
+      "Subtle motion that feels buttery-smooth without demanding attention.",
+      "Responsive reflow that preserves hierarchy across every device size."
+    ],
+    "rules": [
+      { "name": "The Quiet-at-Rest Rule", "body": "Nothing moves merely to decorate the page. Motion appears only to reveal hierarchy, acknowledge input, or clarify a destination.", "section": "elevation" },
+      { "name": "The Two-Signal Rule", "body": "Systems Blue communicates authority; Signal Lime communicates an immediate interactive or editorial highlight. Never assign either color decoratively.", "section": "colors" },
+      { "name": "The Archive Containment Rule", "body": "Pastel archive colors stay inside the previous-design-work section. They never become global brand accents.", "section": "colors" },
+      { "name": "The Restrained-Primary Rule", "body": "The hero and capabilities use neutral surfaces. Systems Blue highlights the end-to-end promise, structural labels, focus, and decisive interaction; primary color guides attention instead of becoming the canvas.", "section": "colors" },
+      { "name": "The Priority-through-Space Rule", "body": "Use more space around hiring proof and current writing than around utility links or historical work. Do not apply one universal section interval to the entire page.", "section": "layout" },
+      { "name": "The One-Path Rule", "body": "Every section establishes seniority, provides proof, extends the writing audience, or makes professional contact easier. Secondary destinations use progressive disclosure rather than competing with the primary path.", "section": "layout" },
+      { "name": "The Seniority Scale Rule", "body": "Large type communicates confidence only when spacing and line breaks remain controlled. Display text never exceeds 96px or tightens beyond -0.04em.", "section": "typography" },
+      { "name": "The Priority Ladder Rule", "body": "Hero is the only 96px display role. Experience and Recent Writing form the second tier; supporting and utility sections remain visibly quieter on desktop and mobile.", "section": "typography" },
+      { "name": "The One-Accent Rule", "body": "Georgia may emphasize a phrase, never an entire heading, section, or body paragraph.", "section": "typography" },
+      { "name": "The Flat-by-Default Rule", "body": "Every surface begins flat. If a shadow is visible without interaction or a physical-artifact reason, remove it.", "section": "elevation" },
+      { "name": "The Motion-before-Shadow Rule", "body": "Prefer a small transform, color transition, or underline reveal before introducing new elevation.", "section": "elevation" },
+      { "name": "The One-Choreography Rule", "body": "The hero owns the expressive entrance. Down-page animation clarifies grouping or interaction and must not repeat the hero's drama.", "section": "motion" },
+      { "name": "The Useful-Surprise Rule", "body": "A delightful moment must make professional contact easier, provide relevant context, or reward deliberate exploration. It settles in under one second, preserves keyboard access, and disappears under reduced-motion preferences.", "section": "motion" },
+      { "name": "The Recoverable-Core Rule", "body": "Contact and navigation never depend on animation, Clipboard APIs, Intl, or one successful script path. Enhancements may fail independently without hiding content or removing the visitor's next action.", "section": "accessibility" }
+    ],
+    "dos": [
+      "Do use spacious composition and strict alignment to communicate professional maturity.",
+      "Do make experience, full-stack ownership, certification, and writing easy to scan in that priority order.",
+      "Do reserve Systems Blue for authority and Signal Lime for rare, meaningful emphasis.",
+      "Do keep components quiet at rest and responsive during hover, focus, or direct manipulation.",
+      "Do preserve WCAG 2.2 AA contrast, keyboard navigation, semantic structure, and reduced-motion behavior.",
+      "Do reflow grids into clear single-column reading order on small screens without shrinking essential text below comfortable sizes."
+    ],
+    "donts": [
+      "Don't use flashy or excessive animation; every motion must clarify hierarchy, feedback, or navigation.",
+      "Don't create dense sections or information overload; split content and preserve breathing room.",
+      "Don't imitate generic portfolio templates or repeat identical floating-card grids.",
+      "Don't introduce overly playful or casual styling, novelty cursors, elastic motion, or decorative effects that weaken seniority.",
+      "Don't create cold or impersonal corporate presentation; retain the portrait, direct first-person voice, writing, and small human typographic accents.",
+      "Don't turn every section label into a repeated decorative eyebrow or use numbered scaffolding where sequence has no meaning.",
+      "Don't exceed 96px display type, tighten display tracking beyond -0.04em, or allow headings to overflow their containers.",
+      "Don't add persistent shadows, decorative glass panels, gradient text, or colored side-stripe borders."
+    ]
+  }
+}
