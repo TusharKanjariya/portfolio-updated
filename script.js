@@ -274,6 +274,8 @@ if (contactForm) {
     const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
     lastEnquiry = `To: Tushar Kanjariya <tusharkanjariya2014@gmail.com>\nSubject: ${subjectText}\n\nName: ${name}\nEmail: ${email}\n\n${message}`;
 
+    document.dispatchEvent(new CustomEvent('portfolio:contact-handoff'));
+
     formOpening = true;
     formRecovery.hidden = true;
     submitButton.disabled = true;

@@ -43,8 +43,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400..900;1,400..900&amp;family=Source+Serif+4:ital,wght@1,400&amp;display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css?v=20260730a" />
-    <script src="script.js?v=20260730a" defer></script>
+    <link rel="stylesheet" href="styles.css?v=20260731a" />
+    <script src="script.js?v=20260731a" defer></script>
+    <script src="analytics.js?v=20260731a" defer></script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -454,9 +455,23 @@
     <footer class="site-footer section-dark">
       <div class="page-shell footer-inner">
         <a class="wordmark wordmark-light" href="#home">TK<span>.</span></a>
-        <a class="footer-top" href="#home">Back to top ↑</a>
+        <div class="footer-actions">
+          <a class="footer-top" href="#home">Back to top ↑</a>
+          <button class="privacy-choices" type="button" data-analytics-settings>Privacy choices</button>
+        </div>
         <p>© <span data-year></span> Tushar Kanjariya<br />Designed and built with intent.</p>
       </div>
     </footer>
+
+    <section class="analytics-consent" data-analytics-consent aria-label="Analytics preferences" hidden>
+      <div>
+        <strong>Analytics preferences</strong>
+        <p>I use Google Analytics to understand which portfolio content is useful. No contact-form details are sent.</p>
+      </div>
+      <div class="analytics-consent-actions">
+        <button class="button button-outline" type="button" data-analytics-decline>Decline</button>
+        <button class="button button-dark" type="button" data-analytics-accept>Allow analytics</button>
+      </div>
+    </section>
   </body>
 </html>

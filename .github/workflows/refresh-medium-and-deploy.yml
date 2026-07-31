@@ -42,6 +42,7 @@ jobs:
         run: |
           node --check scripts/update-medium-posts.mjs
           node --check script.js
+          node --check analytics.js
           git diff --check
 
       - name: Commit refreshed posts
@@ -60,7 +61,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir -p _site
-          cp index.html styles.css script.js robots.txt sitemap.xml humans.txt _site/
+          cp index.html styles.css script.js analytics.js robots.txt sitemap.xml humans.txt _site/
           cp -R assets _site/assets
           if [ -f CNAME ]; then cp CNAME _site/; fi
 

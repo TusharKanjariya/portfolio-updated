@@ -15,6 +15,7 @@ Then open `http://127.0.0.1:4173/`.
 - `index.html` — site content and structure
 - `styles.css` — responsive visual system and motion
 - `script.js` — mobile navigation, scroll reveals, header behavior, and contact email handoff
+- `analytics.js` — consent-aware GA4 loading and privacy-safe interaction events
 - `assets/` — locally stored profile, certification, and portfolio images
 
 The site can be deployed directly to GitHub Pages, Netlify, Vercel, or any static host.
@@ -34,6 +35,12 @@ The recent-writing cards are generated from Tushar's official Medium RSS feed by
 In the GitHub repository, open **Settings → Pages → Build and deployment** and set **Source** to **GitHub Actions**. Then open **Actions → Refresh Medium posts and deploy** and run the workflow once.
 
 The workflow uses the repository's short-lived `GITHUB_TOKEN` with only the permissions required to update the generated files and deploy GitHub Pages.
+
+## Google Analytics
+
+The site uses the existing GA4 web stream `G-WX015PXD1L`. Analytics loads only after a visitor selects **Allow analytics**, and the footer's **Privacy choices** control lets them change that decision.
+
+Tracked events are limited to contact actions, valid contact-form handoff, Medium article clicks, and professional-profile clicks. Form values, email addresses, phone numbers, and message contents are never sent to Analytics. In GA4, mark `generate_lead` as a key event if contact-form handoffs are a primary outcome.
 
 ## SEO and profile maintenance
 
