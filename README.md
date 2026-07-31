@@ -23,7 +23,7 @@ The site can be deployed directly to GitHub Pages, Netlify, Vercel, or any stati
 
 The recent-writing cards are generated from Tushar's official Medium RSS feed by `scripts/update-medium-posts.mjs`.
 
-- `.github/workflows/refresh-medium-and-deploy.yml` runs after pushes to `main`, every six hours, or manually from the Actions tab.
+- `.github/workflows/refresh-medium-and-deploy.yml` runs after pushes to `main`, every day at 12:00 AM IST, or manually from the Actions tab.
 - The updater keeps the three newest valid posts, removes Medium tracking parameters, escapes feed content, and updates the visible cards plus their Article JSON-LD.
 - `sitemap.xml` and the profile `dateModified` value change only when the selected posts change.
 - If Medium is unavailable or returns incomplete data, the workflow fails before editing or deploying, leaving the last successful cards live.

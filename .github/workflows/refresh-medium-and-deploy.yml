@@ -5,7 +5,8 @@ on:
     branches:
       - main
   schedule:
-    - cron: "37 */6 * * *"
+    # GitHub schedules use UTC. 18:30 UTC equals 00:00 IST.
+    - cron: "30 18 * * *"
   workflow_dispatch:
 
 permissions:
