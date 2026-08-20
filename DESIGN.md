@@ -207,7 +207,7 @@ The page follows one conversion path: establish seniority, prove it through expe
 - Capabilities retain every named technology, tool, and working practice in three concise groups. Self-assessed percentage chips were removed because the career timeline and shipped-work narrative are stronger evidence.
 - About keeps the ownership, product-judgment, writing, and team-communication story. Location and education remain in the hero and Experience section; birth date was removed because it does not help a hiring decision.
 - Recent Writing presents three articles and keeps the Medium destination as the complete archive.
-- Connect shows Email, LinkedIn, GitHub, and Medium immediately. Substack, Reddit, daily.dev, Benable, Dribbble, Behance, and Skype remain available through the native “More places” disclosure.
+- Connect shows Email, LinkedIn, GitHub, and Medium immediately. Substack, Reddit, daily.dev, Benable, Dribbble, and Behance remain available through the native “More places” disclosure.
 - Footer social links were removed as duplicates; the Connect section is their single source of truth.
 
 **The One-Path Rule.** Every section must either establish seniority, provide proof, extend the writing audience, or make professional contact easier. Secondary destinations use progressive disclosure rather than competing with the primary path.

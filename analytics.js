@@ -6,7 +6,7 @@
   const banner = document.querySelector('[data-analytics-consent]');
   const acceptButton = document.querySelector('[data-analytics-accept]');
   const declineButton = document.querySelector('[data-analytics-decline]');
-  const settingsButton = document.querySelector('[data-analytics-settings]');
+  const settingsButtons = document.querySelectorAll('[data-analytics-settings]');
   let analyticsLoaded = false;
   let consent = readConsent();
 
@@ -90,9 +90,11 @@
 
   acceptButton?.addEventListener('click', () => setConsent('granted'));
   declineButton?.addEventListener('click', () => setConsent('denied'));
-  settingsButton?.addEventListener('click', () => {
-    banner.hidden = false;
-    banner.querySelector('button')?.focus({ preventScroll: true });
+  settingsButtons.forEach((settingsButton) => {
+    settingsButton.addEventListener('click', () => {
+      banner.hidden = false;
+      banner.querySelector('button')?.focus({ preventScroll: true });
+    });
   });
 
   document.addEventListener('click', (event) => {
