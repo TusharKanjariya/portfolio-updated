@@ -18,19 +18,19 @@ colors:
 typography:
   display:
     fontFamily: "Hanken Grotesk, Segoe UI, Arial, sans-serif"
-    fontSize: "clamp(3.25rem, 7vw, 6rem)"
+    fontSize: "clamp(3.5rem, calc(1.5rem + 3.75vw), 6rem)"
     fontWeight: 700
     lineHeight: 0.95
     letterSpacing: "-0.035em"
   headline:
     fontFamily: "Hanken Grotesk, Segoe UI, Arial, sans-serif"
-    fontSize: "clamp(3rem, 5vw, 4.5rem)"
+    fontSize: "clamp(2.75rem, calc(1.2rem + 2.75vw), 4.5rem)"
     fontWeight: 600
     lineHeight: 0.97
     letterSpacing: "-0.035em"
   title:
     fontFamily: "Hanken Grotesk, Segoe UI, Arial, sans-serif"
-    fontSize: "clamp(1.75rem, 3vw, 2.875rem)"
+    fontSize: "clamp(1.75rem, calc(.75rem + 1.75vw), 2.875rem)"
     fontWeight: 600
     lineHeight: 1.06
     letterSpacing: "-0.025em"
@@ -177,6 +177,8 @@ The Systems palette combines a soft neutral canvas with Carbon Ink, a confident 
 - **Accent** (400, contextual display size): A small number of italicized words inside major statements.
 
 **The Seniority Scale Rule.** Large type communicates confidence only when spacing and line breaks remain controlled. Display text never exceeds 96px or tightens beyond -0.04em.
+
+**The Fluid Desktop Rule.** Display, heading, title, and feature-card roles interpolate gradually from compact laptops to large monitors with bounded `clamp(calc(rem + vw))` values. Body, metadata, navigation, and control text remain rem-based so readability never shrinks with the viewport.
 
 **The Priority Ladder Rule.** Hero is the only 96px display role. Experience and Recent Writing form the second tier; supporting and utility sections remain visibly quieter on desktop and mobile.
 
