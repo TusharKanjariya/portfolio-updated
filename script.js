@@ -5,6 +5,53 @@ const main = document.querySelector('main');
 const footer = document.querySelector('.site-footer');
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+// Enhance native disclosures; they remain usable when JavaScript is unavailable.
+const disclosureMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+document.querySelectorAll('.project-details').forEach((details) => {
+  const summary = details.querySelector('summary');
+  let animation;
+  let expanded = details.open;
+
+  const settle = () => {
+    if (animation) {
+      animation.onfinish = null;
+      animation.cancel();
+      animation = null;
+    }
+    details.open = expanded;
+    details.classList.remove('is-animating', 'is-closing');
+    summary.removeAttribute('aria-expanded');
+  };
+
+  summary.addEventListener('click', (event) => {
+    if (!details.animate || disclosureMotion.matches) return;
+    event.preventDefault();
+    const startHeight = details.getBoundingClientRect().height;
+    expanded = animation ? !expanded : !details.open;
+    if (animation) {
+      animation.onfinish = null;
+      animation.cancel();
+    }
+
+    // Measure both natural states, keeping the content rendered until closing ends.
+    details.open = expanded;
+    const endHeight = details.getBoundingClientRect().height;
+    details.open = true;
+    details.classList.add('is-animating');
+    details.classList.toggle('is-closing', !expanded);
+    summary.setAttribute('aria-expanded', String(expanded));
+    animation = details.animate(
+      [{ height: `${startHeight}px` }, { height: `${endHeight}px` }],
+      { duration: expanded ? 320 : 240, easing: 'cubic-bezier(0.25, 1, 0.5, 1)', fill: 'both' }
+    );
+    animation.onfinish = settle;
+  });
+
+  // A viewport or motion-preference change must never leave a fixed-height panel.
+  window.addEventListener('resize', () => { if (animation) settle(); }, { passive: true });
+  disclosureMotion.addEventListener('change', () => { if (animation) settle(); });
+});
+
 const progress = document.createElement('div');
 progress.className = 'scroll-progress';
 progress.setAttribute('aria-hidden', 'true');

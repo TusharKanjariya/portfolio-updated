@@ -43,8 +43,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400..900;1,400..900&amp;family=Source+Serif+4:ital,wght@1,400&amp;display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css?v=20260824a" />
-    <script src="script.js?v=20260731a" defer></script>
+    <link rel="stylesheet" href="styles.css?v=20260918b" />
+    <script src="script.js?v=20260918b" defer></script>
     <script src="analytics.js?v=20260820b" defer></script>
     <script type="application/ld+json">
       {
@@ -66,8 +66,8 @@
             "@id": "https://tusharkanjariya.me/#profile-page",
             "url": "https://tusharkanjariya.me/",
             "name": "Tushar Kanjariya | Full-Stack Developer \u0026 Technical Writer",
-            "description": "Professional profile, experience, capabilities, writing, and previous design work of Tushar Kanjariya.",
-            "dateModified": "2026-08-21",
+            "description": "Professional profile, experience, selected engineering projects, capabilities, writing, and previous design work of Tushar Kanjariya.",
+            "dateModified": "2026-09-18",
             "inLanguage": "en-IN",
             "isPartOf": {
               "@id": "https://tusharkanjariya.me/#website"
@@ -205,6 +205,7 @@
       <a class="wordmark" href="#home" aria-label="Tushar Kanjariya, home">TK<span>.</span></a>
       <nav class="desktop-nav" aria-label="Primary navigation">
         <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
         <a href="#writing">Writing</a>
       </nav>
       <a class="header-cta button button-dark" href="#contact">
@@ -219,6 +220,7 @@
       <style>.menu-button{display:none!important}</style>
       <nav class="noscript-nav" aria-label="Primary navigation">
         <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
         <a href="#writing">Writing</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -227,6 +229,7 @@
     <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
       <nav aria-label="Mobile navigation">
         <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
         <a href="#writing">Writing</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -287,6 +290,145 @@
           </article>
           <article class="credential-card reveal"><p>Education · 2017–2020</p><h3>Bachelor of Engineering<br />Computer Engineering</h3><span>Government Engineering College, Rajkot · Gujarat Technological University</span></article>
           <article class="credential-card reveal"><p>Education · 2014–2017</p><h3>Diploma<br />Computer Engineering</h3><span>Government Polytechnic, Jamnagar · Gujarat Technological University</span></article>
+        </div>
+      </section>
+
+      <section class="projects section-space" id="projects" aria-labelledby="projects-title">
+        <div class="page-shell">
+          <div class="projects-heading">
+            <p class="projects-label">Selected projects · 2020–present</p>
+            <div>
+              <h2 id="projects-title">From complex workflows<br class="projects-heading-break" /> to useful tools.</h2>
+              <p>Professional systems, open-source tools, and hands-on AI explorations. A closer look at the problems I work on and the parts I build.</p>
+            </div>
+          </div>
+
+          <div class="project-group-heading">
+            <h3>Professional work</h3>
+            <p>Built as part of company teams</p>
+          </div>
+
+          <article class="project-feature" id="project-sendlio" aria-labelledby="sendlio-title">
+            <div class="project-feature-copy">
+              <p class="project-meta"><span class="project-status">Ongoing</span><span><time datetime="2025">2025</time>–present</span></p>
+              <h4 id="sendlio-title">Sendlio</h4>
+              <p class="project-subtitle">Email warm-up &amp; cold email automation</p>
+              <p class="project-description">Developing email warm-up and cold email automation with scheduled workflows and background queues. I continue to improve the system and add functionality as part of the product team.</p>
+              <p class="project-stack">Next.js · Node.js · Python · MongoDB · Redis · BullMQ · Cron jobs · IMAP · SMTP</p>
+              <div class="project-actions">
+                <a class="project-link" href="https://sendlio.com/" target="_blank" rel="noreferrer"><span class="project-link-label">Visit Sendlio</span> <span aria-hidden="true">↗</span></a>
+              </div>
+              <details class="project-details">
+                <summary>My contribution <span aria-hidden="true">+</span></summary>
+                <p>Company project at Redlio Designs. My work focuses on email automation, using AI agents alongside manual engineering. The linked product includes work by the wider team.</p>
+              </details>
+            </div>
+            <figure class="project-feature-media">
+              <img src="assets/project-sendlio-2d-1280.webp" srcset="assets/project-sendlio-2d-640.webp 640w, assets/project-sendlio-2d-1280.webp 1280w" sizes="(max-width: 1100px) 90vw, 50vw" alt="A clock connected to envelopes by blue arrows, illustrating scheduled email delivery" width="1280" height="720" loading="lazy" decoding="async" />
+              <figcaption>Coordinated workflows. Consistent delivery.</figcaption>
+            </figure>
+          </article>
+
+          <div class="project-career-list">
+            <article class="project-career" id="project-commerce" aria-labelledby="commerce-title">
+              <div class="project-career-title">
+                <p class="project-meta"><time datetime="2023">2023</time><span>Full-stack development</span></p>
+                <h4 id="commerce-title">Fireproof-glass commerce</h4>
+                <span class="project-private">Company project · No public link</span>
+              </div>
+              <div class="project-career-body">
+                <p class="project-description">A custom platform for a UAE glass company, with pricing based on product specifications, online payments, rewards, and administration for products, coupons, and orders.</p>
+                <p class="project-stack">Next.js · Node.js · MongoDB · REST APIs · UTap</p>
+                <details class="project-details">
+                  <summary>My contribution <span aria-hidden="true">+</span></summary>
+                  <p>Developed the commerce workflows as a company developer, including configurable product pricing and management features. Built without AI assistance.</p>
+                </details>
+              </div>
+            </article>
+
+            <article class="project-career" id="project-matrimony" aria-labelledby="matrimony-title">
+              <div class="project-career-title">
+                <p class="project-meta"><time datetime="2022">2022</time><span>Full-stack development</span></p>
+                <h4 id="matrimony-title">Matrimony platform</h4>
+                <span class="project-private">Company project · No public link</span>
+              </div>
+              <div class="project-career-body">
+                <p class="project-description">A matchmaking platform bringing together detailed profiles, preference-based discovery, mutual connections, premium access, and downloadable biodata.</p>
+                <p class="project-stack">Next.js · Node.js · MongoDB · JusPay · PayU</p>
+                <details class="project-details">
+                  <summary>My contribution <span aria-hidden="true">+</span></summary>
+                  <p>Built registration and profile flows, matching interactions, premium features, payment integrations, and PDF biodata downloads as part of my company work. Built without AI assistance.</p>
+                </details>
+              </div>
+            </article>
+
+            <article class="project-career" id="project-erp" aria-labelledby="erp-title">
+              <div class="project-career-title">
+                <p class="project-meta"><span><time datetime="2020">2020</time>–<time datetime="2021">21</time></span><span>Angular frontend development</span></p>
+                <h4 id="erp-title">Infrastructure manufacturing ERP</h4>
+                <span class="project-private">Company project · Internal application</span>
+              </div>
+              <div class="project-career-body">
+                <p class="project-description">An internal ERP for a US manufacturer and its connected companies, digitizing spreadsheet-based inventory workflows and supporting detailed pole and component configurations.</p>
+                <p class="project-stack">My work: Angular<br />System stack: .NET · MySQL · AWS</p>
+                <details class="project-details">
+                  <summary>My contribution <span aria-hidden="true">+</span></summary>
+                  <p>At Simform, I developed frontend screens and large forms, connected them to backend APIs, and implemented data binding and validation. My role was frontend development. Built without AI assistance.</p>
+                </details>
+              </div>
+            </article>
+          </div>
+
+          <div class="project-group-heading project-personal-heading">
+            <h3>Tools &amp; explorations</h3>
+            <p>Personal projects with public code</p>
+          </div>
+
+          <div class="project-tools">
+            <article class="project-tool" id="project-medium-mcp" aria-labelledby="medium-mcp-title">
+              <p class="project-meta"><time datetime="2026">2026</time><span>Personal research tool</span></p>
+              <h4 id="medium-mcp-title">Medium Research MCP</h4>
+              <p class="project-description">I built this to find ideas for my Medium articles. It brings developer-community sources into one consistent research workflow, making topics easier to compare and investigate.</p>
+              <p class="project-stack">Node.js · MCP · API integrations</p>
+              <a class="project-link" href="https://github.com/TusharKanjariya/medium-research-mcp" target="_blank" rel="noreferrer"><span class="project-link-label">Explore the repository</span> <span aria-hidden="true">↗</span><span class="sr-only"> for Medium Research MCP</span></a>
+            </article>
+            <article class="project-tool" id="project-sitemap" aria-labelledby="sitemap-title">
+              <p class="project-meta"><time datetime="2025">2025</time><span>Open-source utility</span></p>
+              <h4 id="sitemap-title">sitemap-to-json</h4>
+              <p class="project-description">An XML-sitemap problem at work became a reusable tool. This dependency-free Node.js package converts website sitemaps into JSON, with both a command-line interface and a programmatic API.</p>
+              <p class="project-stack">Node.js · XML · JSON · CLI</p>
+              <a class="project-link" href="https://github.com/TusharKanjariya/sitemap-to-json" target="_blank" rel="noreferrer"><span class="project-link-label">Explore the repository</span> <span aria-hidden="true">↗</span><span class="sr-only"> for sitemap-to-json</span></a>
+            </article>
+          </div>
+
+          <div class="project-vector-pair">
+            <figure class="project-vector-media">
+              <img src="assets/project-vectordocs-2d-1280.webp" srcset="assets/project-vectordocs-2d-640.webp 640w, assets/project-vectordocs-2d-1280.webp 1280w" sizes="(max-width: 720px) 90vw, 50vw" alt="A magnifying glass finding a document passage and connecting it to an answer bubble" width="1280" height="720" loading="lazy" decoding="async" />
+              <figcaption>Relevant passages, connected to an answer.</figcaption>
+            </figure>
+            <div class="project-vector-intro">
+              <p class="projects-label">One idea, two implementations</p>
+              <p>I explored document question-answering with two database approaches. Both are AI-assisted learning projects, built to understand retrieval, embeddings, and the trade-offs behind the answers.</p>
+            </div>
+            <article class="project-vector" id="project-vector-mongo" aria-labelledby="vector-mongo-title">
+              <p class="project-meta"><time datetime="2026">2026</time><span>Learning project</span></p>
+              <h4 id="vector-mongo-title">VectorDocs <span>MongoDB Atlas</span></h4>
+              <p class="project-description">A document assistant exploring local embeddings, Atlas Vector Search, and answers accompanied by retrieved source passages.</p>
+              <p class="project-stack">Node.js · MongoDB Atlas · Transformers.js · RAG</p>
+              <a class="project-link" href="https://github.com/TusharKanjariya/mongo-vector-assistant" target="_blank" rel="noreferrer"><span class="project-link-label">View MongoDB version</span> <span aria-hidden="true">↗</span></a>
+            </article>
+            <article class="project-vector" id="project-vector-postgres" aria-labelledby="vector-postgres-title">
+              <p class="project-meta"><time datetime="2026">2026</time><span>Learning project</span></p>
+              <h4 id="vector-postgres-title">VectorDocs <span>PostgreSQL + pgvector</span></h4>
+              <p class="project-description">The same document workflow, reworked to explore SQL-based vector retrieval, HNSW indexing, and transactional document ingestion.</p>
+              <p class="project-stack">Node.js · PostgreSQL · pgvector · RAG</p>
+              <a class="project-link" href="https://github.com/TusharKanjariya/pg-vector-assistant" target="_blank" rel="noreferrer"><span class="project-link-label">View PostgreSQL version</span> <span aria-hidden="true">↗</span></a>
+            </article>
+          </div>
+          <div class="projects-footer">
+            <p>More experiments and source code on GitHub.</p>
+            <a class="project-link" href="https://github.com/TusharKanjariya?tab=repositories" target="_blank" rel="noreferrer"><span class="project-link-label">Browse all repositories</span> <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
       </section>
 

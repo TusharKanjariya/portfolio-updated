@@ -21,6 +21,17 @@ Then open `http://127.0.0.1:4173/`.
 
 The site can be deployed directly to GitHub Pages, Netlify, Vercel, or any static host.
 
+## Selected projects
+
+The eight selected project entries are static, semantic HTML in `index.html`, immediately after Experience. Keep dates, personal contribution, and professional-versus-learning labels accurate. Company projects without public destinations intentionally have no external project link. Native contribution disclosures work without JavaScript.
+
+Original conceptual project illustrations are stored locally and loaded lazily:
+
+- `assets/project-sendlio-2d-{640,1280}.webp` — flat illustration of a clock and envelopes connected by a delivery flow.
+- `assets/project-vectordocs-2d-{640,1280}.webp` — flat illustration of document search leading to an answer; shared by both database implementations.
+
+The illustrations were created with the built-in image generation tool. Full prompts are recorded in `assets/project-illustration-prompts.md`. Responsive WebP sources keep mobile downloads small; explicit image dimensions reserve layout space. Previous screenshot files are retained as source assets but are no longer displayed.
+
 ## Automatic Medium posts
 
 The recent-writing cards are generated from Tushar's official Medium RSS feed by `scripts/update-medium-posts.mjs`.

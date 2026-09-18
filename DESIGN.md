@@ -202,6 +202,16 @@ Interactive text targets keep a minimum 44px hit area on touch-oriented surfaces
 
 ## Distillation
 
+### Selected projects
+
+Projects sits immediately after Experience and before Capabilities. It turns the career timeline into concrete evidence before visitors reach the technology list. Desktop, mobile, and no-JavaScript navigation all link to `#projects`.
+
+The section uses the existing neutral palette, Hanken Grotesk, fluid heading sizes, and fluid spacing tokens. Four professional projects lead: Sendlio receives a single featured surface with a conceptual illustration of ordered email delivery; commerce, matrimony, and the manufacturing ERP use concise divided rows. Native `details` elements disclose contribution scope and build context without requiring JavaScript; JavaScript enhances opening and closing with a short height transition that respects reduced motion. Hover feedback is a slight background change, with no floating cards.
+
+Personal research tooling and the sitemap utility follow in two columns. The MongoDB and PostgreSQL VectorDocs projects retain separate titles and repository links but share an introduction and a conceptual illustration of document passages connecting to an answer. Both are explicitly learning projects. Original flat 2D illustrations use precise charcoal outlines, white and neutral fills, and small Systems Blue accents. Simple front-facing shapes, clear visual connections, and generous margins remain readable at mobile sizes. Responsive WebP files are provided at 640px and 1280px wide.
+
+At 1100px the featured image moves below the copy. At 720px project rows and paired content become a single reading flow. Links and disclosure controls maintain at least 44px touch targets. Project content remains visible without JavaScript or entrance animations, and feedback respects the global reduced-motion preference.
+
 The page follows one conversion path: establish seniority, prove it through experience, show the breadth behind delivery, surface current writing, and make contact easy. Supporting material remains available without competing with that path.
 
 - The hero keeps the portrait and current-role panel; the separate metric panel, credibility strip, and manifesto were removed because they repeated the same 6+ years and end-to-end ownership claims.
