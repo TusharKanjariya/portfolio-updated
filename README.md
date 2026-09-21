@@ -27,8 +27,8 @@ The eight selected project entries are static, semantic HTML in `index.html`, im
 
 Original conceptual project illustrations are stored locally and loaded lazily:
 
-- `assets/project-sendlio-2d-{640,1280}.webp` — flat illustration of a clock and envelopes connected by a delivery flow.
-- `assets/project-vectordocs-2d-{640,1280}.webp` — flat illustration of document search leading to an answer; shared by both database implementations.
+- `assets/project-sendlio-halftone-v2-{640,1280}.webp` — an expressive cartoon character arranging scheduled email delivery, in pale blue with halftone dots.
+- `assets/project-vectordocs-halftone-v2-{640,1280}.webp` — an expressive cartoon character finding an answer in documents, in pale lavender and blue; shared by both database implementations.
 
 The illustrations were created with the built-in image generation tool. Full prompts are recorded in `assets/project-illustration-prompts.md`. Responsive WebP sources keep mobile downloads small; explicit image dimensions reserve layout space. Previous screenshot files are retained as source assets but are no longer displayed.
 
