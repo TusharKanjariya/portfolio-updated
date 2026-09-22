@@ -219,6 +219,8 @@ body.menu-open .site-header { z-index: var(--z-menu-control); }
 .project-tool { display: flex; flex-direction: column; align-items: flex-start; padding: var(--space-xl) 0; }
 .project-tool h4,.project-vector h4 { margin-bottom: var(--space-base); }
 .project-tool > .project-link { margin-top: auto; padding-top: var(--space-lg); }
+.project-tool > .project-tool-actions { margin-top: auto; padding-top: var(--space-lg); gap: var(--space-xs) var(--space-lg); }
+.project-tool-actions > .project-link { padding-top: 0; }
 .project-tool > .project-stack { margin-bottom: var(--space-base); }
 .project-vector-pair { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: var(--space-xl) var(--space-2xl); margin-top: var(--space-lg); padding-top: var(--space-xl); border-top: 1px solid var(--line); }
 .project-vector-media img { width: 100%; height: auto; border: 1px solid var(--line); border-radius: 8px; }
