@@ -32,6 +32,12 @@ Original conceptual project illustrations are stored locally and loaded lazily:
 
 The illustrations were created with the built-in image generation tool. Full prompts are recorded in `assets/project-illustration-prompts.md`. Responsive WebP sources keep mobile downloads small; explicit image dimensions reserve layout space. Previous screenshot files are retained as source assets but are no longer displayed.
 
+## Products
+
+The `#products` section replaces the previous design-work section, between Connect and Contact. It lists all six products verified from `https://shop.tusharkanjariya.me/` on 2026-10-21: the Terminal Bundle, Developer Terminal Handbook, Windows/Mac/Linux guides, and free Terminal Cheat Sheet. Links open the individual shop pages; checkout and current prices remain in the shop.
+
+Product covers are optimized local WebP files named `assets/product-*.webp`, sourced from the public shop thumbnails. Update descriptions, formats, and covers when the catalog changes. This is a static product selection, not an automatic shop feed.
+
 ## Automatic Medium posts
 
 The recent-writing cards are generated from Tushar's official Medium RSS feed by `scripts/update-medium-posts.mjs`.

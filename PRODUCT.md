@@ -23,7 +23,7 @@ An experienced full-stack developer and technical writer who combines profession
 ## Conversion & proof
 
 - The primary action is contacting Tushar about a job or project.
-- Secondary actions are reviewing his professional experience and reading or following his Medium writing.
+- Secondary actions are reviewing his professional experience, reading or following his Medium writing, and exploring his published developer guides and references.
 - The line a visitor should remember after ten seconds: “An experienced full-stack developer and technical writer who can own delivery, collaborate with or guide a team, and work effectively in a remote environment.”
 - Belief ladder: Tushar has substantial professional experience; he can own full-stack delivery from interface through infrastructure; his design background improves his product judgment; his career history, certifications, and education demonstrate reliability; his technical writing demonstrates communication and knowledge-sharing ability; he is worth contacting for a role or project.
 - Proof on hand, in priority order: employment history and role descriptions; selected professional projects with accurately scoped contributions; personal tools and clearly labelled AI learning projects; certifications and education; published Medium writing as a secondary professional stream and side-income channel.
