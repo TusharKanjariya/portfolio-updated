@@ -34,7 +34,7 @@ The illustrations were created with the built-in image generation tool. Full pro
 
 ## Products
 
-The `#products` section replaces the previous design-work section, between Connect and Contact. It lists all six products verified from `https://shop.tusharkanjariya.me/` on 2026-10-21: the Terminal Bundle, Developer Terminal Handbook, Windows/Mac/Linux guides, and free Terminal Cheat Sheet. Links open the individual shop pages; checkout and current prices remain in the shop.
+The `#products` section replaces the previous design-work section, between Connect and Contact. It lists all eight products verified from `https://shop.tusharkanjariya.me/` on 2026-11-26: the Terminal Bundle, Git Guide, Developer Terminal Handbook, Windows/Mac/Linux guides, and free Git and Terminal Cheat Sheets. Links open the individual shop pages; checkout and current prices remain in the shop. All eight current storefront thumbnails are served as local 640×640 WebP images without cropping, with a dated query parameter to refresh cached covers. Use the storefront thumbnail URLs rather than product-page social-sharing images, which can differ.
 
 Product covers are optimized local WebP files named `assets/product-*.webp`, sourced from the public shop thumbnails. Update descriptions, formats, and covers when the catalog changes. This is a static product selection, not an automatic shop feed.
 

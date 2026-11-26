@@ -202,7 +202,7 @@ Interactive text targets keep a minimum 44px hit area on touch-oriented surfaces
 
 ## Products
 
-The previous design-work section was replaced by My Products on 2026-10-21. It stays between Connect and Contact, with a featured Terminal Bundle followed by compact rows for the handbook, three OS guides, and free cheat sheet. Actual shop covers appear beside concise descriptions and explicit destination labels. The section uses existing typography and spacing tokens, with background and text-color hover feedback. Two-column rows collapse at 900px; at 600px images and text stack. All content is visible without JavaScript. Legacy archive tokens and styles are retained but no longer used by the page.
+The previous design-work section was replaced by My Products on 2026-10-21. It stays between Connect and Contact, with a featured Terminal Bundle followed by the Git Guide, handbook, three OS guides, and free Git and Terminal cheat sheets. All eight covers and product details were refreshed from the shop on 2026-11-26. The Git Guide and free references use full-width compact rows; the four other individual terminal guides retain two columns. Actual shop covers appear beside concise descriptions and explicit destination labels. The section uses existing typography and spacing tokens, with background and text-color hover feedback. Two-column rows collapse at 900px; at 600px images and text stack. All content is visible without JavaScript. Legacy archive tokens and styles are retained but no longer used by the page.
 
 ## Distillation
 
